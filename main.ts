@@ -1,3 +1,6 @@
+info.onCountdownEnd(function () {
+    game.gameOver(false)
+})
 function gameOver () {
     game.setGameOverMessage(true, "Player 1 Wins!")
     game.setGameOverMessage(true, "Player 2 Wins!")
