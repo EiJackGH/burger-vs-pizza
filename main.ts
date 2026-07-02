@@ -11,6 +11,6 @@ let burger = sprites.create(assets.image`burger`, SpriteKind.Player)
 burger.left = 0
 let pizza = sprites.create(assets.image`pizza`, SpriteKind.Player)
 pizza.right = scene.screenWidth()
-controller.moveSprite(burger)
-controller.moveSprite(pizza)
+controller.player1.moveSprite(burger)
+controller.player2.moveSprite(pizza)
 info.startCountdown(30)
